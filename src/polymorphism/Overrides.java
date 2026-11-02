@@ -7,6 +7,7 @@ class A{
 }
 
 class B extends A{
+	@Override
 	public void method() {
 		System.out.println("child 2 methods");
 	}
